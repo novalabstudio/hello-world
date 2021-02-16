@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^(www\.)?test-github\.it$ [NC]
+RewriteRule ^$ /hello-world [L]
